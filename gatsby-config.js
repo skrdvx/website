@@ -107,8 +107,8 @@ module.exports = {
             },
         },
         {
-               resolve: "gatsby-plugin-google-tagmanager",
-               options: {
+            resolve: "gatsby-plugin-google-tagmanager",
+            options: {
                   id: "GTM-P453T6T",
 
                 // Include GTM in development.
@@ -124,8 +124,8 @@ module.exports = {
                 gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
                 gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
                 dataLayerName: "YOUR_DATA_LAYER_NAME",
-                },
-         },
+            },
+        },
         {
             resolve: 'gatsby-plugin-sitemap',
             options: {
