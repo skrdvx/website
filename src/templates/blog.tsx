@@ -145,6 +145,7 @@ const StyledBlogTemplate = styled.div`
 
 const BlogTemplate: React.SFC<BlogTemplateProps> = ({ data }) => {
   const authors = parseAuthors(data.markdownRemark.frontmatter.author);
+  const metaPreview = `https://www.gitpod.io${data.markdownRemark.frontmatter.teaserImage ? data.markdownRemark.frontmatter.teaserImage : data.markdownRemark.frontmatter.image}`
   return (
   <IndexLayout canonical={data.markdownRemark.frontmatter.url || `${data.markdownRemark.fields.slug.toLowerCase()}`}>
       <Helmet>
@@ -159,11 +160,11 @@ const BlogTemplate: React.SFC<BlogTemplateProps> = ({ data }) => {
         <meta property="og:url" content={data.site.siteMetadata.siteUrl + data.markdownRemark.fields.slug} />
         <meta property="og:title" content={data.markdownRemark.frontmatter.title} />
         <meta property="og:description" content={data.markdownRemark.excerpt} />
-        <meta property="og:image" content={data.markdownRemark.frontmatter.image} />
+        <meta property="og:image" content={metaPreview} />
         {
           data.markdownRemark.frontmatter.url ? <link rel="canonical" href={data.markdownRemark.frontmatter.url} /> : null
         }
-
+        <meta name="twitter:image" content={metaPreview} />
       </Helmet>
       <div className="grey-container">
           <StyledBlogTemplate>
