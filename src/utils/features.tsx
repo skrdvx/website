@@ -64,7 +64,7 @@ export const featuresCardsData = [
         icon: Terminal,
         iconText: <span>Linux<br />Terminals</span>,
         paragraphs: <React.Fragment>
-            <p>Gitpod instantly starts a machine in the cloud-based on a Docker image. Tools that are required for your project or popular are readily installed and configured.</p>
+            <p>Gitpod instantly starts a machine in the cloud based on a Docker image. Tools that are required for your project or popular are readily installed and configured.</p>
             <p>And still, if you like to do configurations yourself, you can adjust everything to your satisfaction by bringing your own Docker image or Dockerfile.</p>
         </React.Fragment>,
         more: <p>Read more about <Link to="/docs/config-docker/">Terminals.</Link></p>,
