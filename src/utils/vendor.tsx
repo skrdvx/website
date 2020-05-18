@@ -5,7 +5,7 @@ export const features = [
     },
     {
         title: "Your Developer-Oriented Marketing Tool",
-        paragraphs: ['With Gitpod, you can gain insights into how your products are experienced. Finally, you can add that missing puzzle piece into your marketing funnel.']
+        paragraphs: ['With Gitpod, you can gain insights into how your products are experienced. You can finally add that missing puzzle piece to your marketing funnel.']
     },
     {
         title: "Show Your Products to Everyone",
