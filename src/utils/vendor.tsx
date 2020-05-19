@@ -9,7 +9,7 @@ export const features = [
     },
     {
         title: "Show Your Products to Everyone",
-        paragraphs: ['A GitHub account is not required as Gitpod can be integrated with your authentication system.', 'All workspaces are also sandboxed and hardened against abuses like spammers, miners, etc.']
+        paragraphs: ['A GitHub account is not required as Gitpod can be integrated with your own authentication system.', 'All workspaces are also sandboxed and hardened against abuses like spammers, miners, etc.']
     },
     {
         title: "Guide Your Clients",
