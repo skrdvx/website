@@ -32,7 +32,7 @@ We should automate dev environments using code, just as we do with testing, stag
 
 Automating a dev environment means we can recreate it any time. Starting fresh every time will make sure the setup works correctly and that you get a clean state. Since the build and the tests ran through and the dependencies are all fresh, you can be sure that any problems come from your changes. Such a setup makes it super easy to reproduce bugs, as well.
 
-![disposable dev environments](./continuous-dev-environment-in-devops/same-shoes.jpg)
+![Rack with available pairs of bowling shoes](./continuous-dev-environment-in-devops/same-shoes.jpg)
 
 Moreover, a use-once dev environment frees you from cleaning up afterward. You never pollute your local system with any heavy checkouts, dependencies, builds, databases, and the like. Enter zero-waste coding.
 
@@ -48,7 +48,7 @@ Just like CI tools that build your project after you have submitted a change, a 
 
 Gitpod prebuilds your branches continuously, so that you can start coding immediately without having to wait for builds to complete. Starting a new dev environment and seeing below output in the terminal makes me smile every time:
 
-![🍌 This task ran as part of a workspace prebuild. 🎉 You just saved 5 minutes of watching your code build.](./continuous-dev-environment-in-devops/prebuilds.png)
+![This task ran as part of a workspace prebuild. 🎉 You just saved 5 minutes of watching your code build.](./continuous-dev-environment-in-devops/prebuilds.png)
 
 Try below's example to see the effect of prebuilds in action. 👇
 
@@ -64,7 +64,7 @@ The Theia IDE open-source project is fully configured with continuously prebuilt
 
 > https://gitpod.io/#https://github.com/theia-ide/theia
 
-![Individual](./continuous-dev-environment-in-devops/theia.png)
+![Theia in Gitpod](./continuous-dev-environment-in-devops/theia.png)
 
 ## But my environment is different than those from my teammates!
 Yes, of course, there are personal preferences like themes, keybindings, or even one or the other tool. Some developers heavily use command-line tools and have very advanced configurations. Others use particular VS Code extensions that improve their workflow significantly.
